@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca0ffc268f81e840b9621d5946f35c3, type: 3}
+  m_Name: iOSBuildProjectPipeline
+  m_EditorClassIdentifier: 
+  pipelineName: iOSBuild
+  buildTarget: 9
+  steps:
+  - {fileID: 11400000, guid: fc2427e2b3d582cce917a8640abd1431, type: 2}
+  - {fileID: 11400000, guid: 2230790d6c522b44ba28afadbb5b6415, type: 2}
+  - {fileID: 11400000, guid: 68c980783e076f144ac39ac5780cd3ed, type: 2}
+  - {fileID: 11400000, guid: e38e88e757decbc40a5e55cf33bc0443, type: 2}
+  - {fileID: 11400000, guid: a5727d4a2332e022f893d6df227716f9, type: 2}
+  - {fileID: 11400000, guid: 8fefce1cd6f67694cb88c71acc35c0c2, type: 2}
+  - {fileID: 11400000, guid: a41327062ba9b4a5d8b1763db6b5b4a8, type: 2}
